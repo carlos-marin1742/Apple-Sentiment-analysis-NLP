@@ -2,13 +2,19 @@
 
 
 ## Background
-Customers buy Apple products everyday.They also hop on twitter to voice their opinions about products everyday on Twittter. Using Natural Language Processing (NLP), we can determine what are the most common words being sent and with what tone. And Identify the best model for future predictions.
+A new iPhone and Android has just been released.
+
+Attendees are voicing their oppinions on Twitter
+
+Using Natural Language Processing (NLP) we can determine what are the most common words being used and what tone
+
+Identify the best model for future predictions
 
 
 ## Business Problem
-What positive things are customers saying about Apple Products or Apple Company?
+We are marketing company contracted to evaluate these customers tweets based on sentiments
 
-What negative things are customers saying about Apple Products or Apple Company?
+Identify what customers are saying about the new phones and company.
 
 ## Data
 Using the tweet product dataset. Dataset has over 9000 tweets, and 3 columns.
@@ -26,6 +32,8 @@ Removal of small words (less than 3 characters in length)
 
 Removing stop words
 
+Build WordClouds - Visualization of most common and important words.
+
 Build machine learning models with Word Vectorizers to predict future sentiments (using CountVectorizer and Term Frequency - Inverse Document Frequency (TFIDF)
 
 Developed several models to evaluate performance
@@ -33,27 +41,48 @@ Developed several models to evaluate performance
 • Recall – Correct predictions vs actual positive predictions
 • F1 score – harmonic mean of Precision and Recall • Accuracy
 
+Count Vectorizer counts the number of times a word appears.
+
+TFIDF (Term Frequency - Inverse Document Frequency counts the number of words but considers the overall document weightage
 
 
 ## Results
-WordCloud for positive Emotion Sentiment
+WordCloud for Apple positive Emotion Sentiment
 ![](Positive_Sentiments.png)
 
-WordCloud for Negative Emotion Sentiment
+Wordcloud for Google Positive Sentiment
+![](google_positive.png)
+
+WordCloud for Apple Negative Emotion Sentiment
 ![](Negative_Emotion.png)
+
+WordCloud for Google Negative Emotion Sentiment
+![](google_negative.png)
 
 WordCloud for all Apple Sentiments
 ![](Apple_sentiments.png)
 
-## Conclusions / Summary of Findings
-Most positive words were associated with events.
+WordCloud for all Google Sentiments
+![](google_sentiments.png)
 
-Most negative words associated with the product or negative words (such as battery)
+## Conclusions / Summary of Findings
+Most positive words were associated with events for Google and Apple
+
+Most negative words associated with the product or negative words (such as battery) for Google
+
+Most negative words were associated wityh the event for Google
 
 The TFIDF Vectorizer is the best for predicting future sentiments.
 • TFIDF Vectorizer outperformed Precision, Recall, F1 score against CountVectorizer
 
 
+## Next Steps...
+
+1) Perform Sentiment analysis at months then a year to see how much better or worse the product has improved
+
+2) Based on the reviews, make improvements to product please customer.
+
+3) Perform on other companies that make smart phones such as Nokia, Samsung, Huawei see how they are doing using Sentiment Analsysis..
 
 
 ├── data : data used for modeling
