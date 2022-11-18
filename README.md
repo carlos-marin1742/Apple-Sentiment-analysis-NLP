@@ -48,22 +48,22 @@ TFIDF (Term Frequency - Inverse Document Frequency counts the number of words bu
 
 ## Results
 WordCloud for Apple positive Emotion Sentiment
-![](Positive_Sentiments.png)
+![](images/Positive_Sentiments.png)
 
 Wordcloud for Google Positive Sentiment
-![](google_positive.png)
+![](images/google_positive.png)
 
 WordCloud for Apple Negative Emotion Sentiment
-![](Negative_Emotion.png)
+![](images/Negative_Emotion.png)
 
 WordCloud for Google Negative Emotion Sentiment
-![](google_negative.png)
+![](images/google_negative.png)
 
 WordCloud for all Apple Sentiments
-![](Apple_sentiments.png)
+![](images/Apple_sentiments.png)
 
 WordCloud for all Google Sentiments
-![](google_sentiments.png)
+![](images/google_sentiments.png)
 
 ## Conclusions / Summary of Findings
 Most positive words were associated with events for Google and Apple
